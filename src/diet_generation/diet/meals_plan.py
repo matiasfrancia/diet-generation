@@ -4,12 +4,12 @@ from typing import List, Optional
 
 import pandas as pd
 
-from project_fitness_adri.config.settings import get_settings
-from project_fitness_adri.diet.meals_plan_llm import MealsPlanLLM
-from project_fitness_adri.diet.types import MealsPlan
-from project_fitness_adri.user.types import DietType
-from project_fitness_adri.user.user import User
-from project_fitness_adri.utils.io import _load_food_database
+from diet_generation.config.settings import get_settings
+from diet_generation.diet.meals_plan_llm import MealsPlanLLM
+from diet_generation.diet.types import MealsPlan
+from diet_generation.user.types import DietType
+from diet_generation.user.user import User
+from diet_generation.utils.io import _load_food_database
 
 settings = get_settings()
 log = logging.getLogger(__name__)

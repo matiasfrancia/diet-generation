@@ -1,5 +1,5 @@
 from __future__ import annotations
-from project_fitness_adri.user.types import Macros, UserData
+from diet_generation.user.types import Macros, UserData
 
 
 ACTIVITY_FACTORS = {

@@ -6,7 +6,7 @@ from pathlib import Path
 class Settings(BaseSettings):
     
     # General
-    package_name: str = "project_fitness_adri"
+    package_name: str = "diet_generation"
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
     base_dir: Path = Path(__file__).resolve().parent.parent
     data_dir: Path = base_dir / "data"

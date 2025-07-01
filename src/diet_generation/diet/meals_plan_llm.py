@@ -7,15 +7,15 @@ import pandas as pd
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 
-from project_fitness_adri.config.settings import Settings, get_settings
-from project_fitness_adri.diet.food_database import FoodDatabaseGenerator
-from project_fitness_adri.diet.types import MealsPlan, Meal, MealItem, FoodItem
-from project_fitness_adri.user.types import Macros
-from project_fitness_adri.user.user import User
+from diet_generation.config.settings import Settings, get_settings
+from diet_generation.diet.food_database import FoodDatabaseGenerator
+from diet_generation.diet.types import MealsPlan, Meal, MealItem, FoodItem
+from diet_generation.user.types import Macros
+from diet_generation.user.user import User
 
 import logging
 
-from project_fitness_adri.utils.io import _load_food_database
+from diet_generation.utils.io import _load_food_database
 
 log = logging.getLogger(__name__)
 settings: Settings = get_settings()

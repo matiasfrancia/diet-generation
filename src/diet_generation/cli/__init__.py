@@ -1,6 +1,6 @@
 import typer
 
-from project_fitness_adri.cli import diet_cmd, exercises_cmd, user_cmd
+from diet_generation.cli import diet_cmd, exercises_cmd, user_cmd
 
 app = typer.Typer()
 app.add_typer(diet_cmd.app, name="diet")

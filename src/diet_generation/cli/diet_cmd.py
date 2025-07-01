@@ -2,9 +2,9 @@ from typing import Literal, Optional
 import typer
 import logging
 
-from project_fitness_adri.diet.food_database import FoodDatabaseGenerator
-from project_fitness_adri.pipelines.diet_pipeline import DietPipeline
-from project_fitness_adri.user.types import ActivityLevel, DietType, Goal, Implementation, Sex, UserData
+from diet_generation.diet.food_database import FoodDatabaseGenerator
+from diet_generation.pipelines.diet_pipeline import DietPipeline
+from diet_generation.user.types import ActivityLevel, DietType, Goal, Implementation, Sex, UserData
 
 
 logging.basicConfig(level=logging.INFO)

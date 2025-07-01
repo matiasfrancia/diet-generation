@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List, Literal, Optional
 
-from project_fitness_adri.user.types import Macros
+from diet_generation.user.types import Macros
 
 @dataclass(frozen=True)
 class FoodItem:

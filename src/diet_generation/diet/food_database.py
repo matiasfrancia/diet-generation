@@ -6,8 +6,8 @@ import pandas as pd
 from dataclasses import asdict
 from pyfatsecret import Fatsecret
 
-from project_fitness_adri.config.settings import get_settings
-from project_fitness_adri.diet.types import FoodItem
+from diet_generation.config.settings import get_settings
+from diet_generation.diet.types import FoodItem
 
 log = logging.getLogger(__name__)
 

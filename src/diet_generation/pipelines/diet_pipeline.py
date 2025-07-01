@@ -2,12 +2,12 @@
 import logging
 from pathlib import Path
 import pandas as pd
-from project_fitness_adri.config.settings import get_settings
-from project_fitness_adri.diet.food_database import FoodDatabaseGenerator
-from project_fitness_adri.diet.meals_plan import MealsPlanGenerator
-from project_fitness_adri.diet.types import MealsPlan
-from project_fitness_adri.user.types import UserData
-from project_fitness_adri.user.user import User
+from diet_generation.config.settings import get_settings
+from diet_generation.diet.food_database import FoodDatabaseGenerator
+from diet_generation.diet.meals_plan import MealsPlanGenerator
+from diet_generation.diet.types import MealsPlan
+from diet_generation.user.types import UserData
+from diet_generation.user.user import User
 
 
 settings = get_settings()

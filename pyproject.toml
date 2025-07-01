@@ -1,5 +1,5 @@
 [project]
-name = "project-fitness-adri"
+name = "diet-generation"
 version = "0.1.0"
 description = "Project made to automate the diet and exercises' plan generation"
 authors = [
@@ -25,4 +25,4 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-project-fitness-adri-cli = "project_fitness_adri.cli:app"
+diet-generation-cli = "diet_generation.cli:app"

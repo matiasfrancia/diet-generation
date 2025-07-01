@@ -1,6 +1,6 @@
 import pandas as pd
 
-from project_fitness_adri.config.settings import Settings, get_settings
+from diet_generation.config.settings import Settings, get_settings
 
 
 settings: Settings = get_settings()
