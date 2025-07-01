@@ -1,1 +1,1 @@
-# diet-generation
+This is the base project made for automating a diet and exercises' plan generation. It will allow automatic meals plan generation considering macronutrient's constraints and exercise plans for different type of users, using AI and Linear Programming techniques for food amount optimization.

@@ -1,0 +1,28 @@
+[project]
+name = "project-fitness-adri"
+version = "0.1.0"
+description = "Project made to automate the diet and exercises' plan generation"
+authors = [
+    {name = "matiasfrancia",email = "matiasfrancia1@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "pandas (>=2.3.0,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "typer (>=0.16.0,<0.17.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "pydantic-settings (>=2.10.0,<3.0.0)",
+    "pyfatsecret (>=0.1.1,<0.2.0)",
+    "openai (>=1.91.0,<2.0.0)",
+    "langchain (>=0.3.26,<0.4.0)",
+    "langchain-openai (>=0.3.25,<0.4.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+project-fitness-adri-cli = "project_fitness_adri.cli:app"
